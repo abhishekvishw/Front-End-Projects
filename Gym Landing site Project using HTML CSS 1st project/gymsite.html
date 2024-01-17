@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Site</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        color: white;
+      }
+      body {
+        /* background-color: rgba(0, 0, 0, 0.343); */
+        background-image: url("Background.jpg");
+        background-color: rgba(0, 0, 0, 0.85);
+        /* background-position: center; */
+        background-size: cover;
+        /* filter: brightness(0.5); */
+        /* height: 3vh; */
+      }
+      header {
+        display: block;
+        
+      }
+      .logo {
+        filter: invert();
+        width: 60px;
+        /* margin: 2px auto; */
+      }
+      .gmnm {
+        font-size: 15px;
+        /* text-align: center; */
+      }
+      .main {
+        background-color: rgba(0, 0, 0, 0.85);
+        height: 100vh;
+        width: 100vw;
+        /* background-size: cover; */
+      }
+      .left {
+        /* float: left; */
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        text-align: center;
+      }
+      .right {
+        /* float: right; */
+        position: absolute;
+        top: 20px;
+        right: 20px;
+      }
+      .container {
+        position: absolute;
+        top: 100px;
+        width: 100vw;
+        text-align: center;
+      }
+      .mid {
+        position: absolute;
+        top: 20px;
+        margin: 10px 25vw;
+      }
+      .mid ul li {
+        display: inline-block;
+        font-size: 15px;
+        margin: 2px 15px;
+        background-color: rgba(169, 169, 169, 0.3);
+        padding: 5px;
+        border-radius: 5px;
+      }
+      .mid ul li:hover {
+        background-color: rgba(169, 169, 169, 0.4);
+        /* text-shadow: 1px 1px 2px black; */
+        /* font-weight: bold; */
+        scale: 1.2;
+        text-decoration: underline;
+      }
+      .mid ul li a {
+        text-decoration: none;
+      }
+      .right{
+        top: 33px;
+      }
+      .btn {
+        height: 25px;
+        width: 100px;
+        color: white;
+        background-color: rgba(169, 169, 169, 0.3);
+        border-radius: 5px;
+        cursor: pointer;
+        margin-right: 10px;
+        margin-bottom: 25px;
+        /* justify-content: space-between; */
+      }
+      .btn:hover {
+        background-color: rgba(169, 169, 169, 0.4);
+        scale: 1.2;
+        text-decoration: underline;
+      }
+      .form-group {
+        /* background-color: green; */
+        margin: 5px auto;
+      }
+      .container input {
+        width: 500px;
+        /* width: 100%; */
+        font-size: 20px;
+        color: black;
+        text-align: center;
+        margin: 5px;
+        /* border-radius: 10px; */
+        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 6px;
+      }
+      .botbtn{
+        display: block;
+        margin: 10px auto;
+        font-size: 20px;
+        padding: 5px;
+        color: rgba(0, 0, 0, 1);
+        width: 500px;
+        background-color: rgba(255, 255, 255, 0.8);
+        border-radius: 6px;
+      }
+      .botbtn:hover{
+        color: black;
+        background-color: white;
+        text-shadow: 1px 1px 10px aquamarine;
+      }
+      .active{
+        text-decoration: underline;
+        color: aqua;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="main">
+      <header class="header">
+        <!-- Left Box for Logo -->
+        <div class="left">
+          <img
+            class="logo"
+            src="logo.svg"
+            alt="Image of a Dumbell as Logo of Abhi's Fitness"
+          />
+          <div class="gmnm">Abhi's Fitness</div>
+        </div>
+        <!-- Middle Box for Navigation Menu -->
+        <div class="mid">
+          <ul>
+            <li><a href="#" class="active">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Fitness Calculator</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+        <!-- Right Box for Contact Shortcuts -->
+        <div class="right">
+          <button class="btn">Call us Now</button>
+          <button class="btn">E-Mail Us</button>
+        </div>
+      </header>
+      <hr />
+      <!-- Form -->
+      <div class="container">
+        <h1>Join the Best Gym of your City now !!!</h1>
+        <form action="#">
+          <div class="form-group">
+            <input type="text" placeholder="Enter Your Name" />
+          </div>
+
+          <div class="form-group">
+            <input type="number" placeholder="Enter Your Age" />
+          </div>
+
+          <div class="form-group">
+            <input type="text" placeholder="Enter Your Gender" />
+          </div>
+
+          <div class="form-group">
+            <input type="text" placeholder="Enter Your Locality" />
+          </div>
+
+          <div class="form-group">
+            <input type="email" placeholder="Enter Your E-Mail ID" />
+          </div>
+
+          <div class="form-group">
+            <input type="number" placeholder="Enter Your Phone Number" />
+          </div>
+
+          <button type="reset" class="botbtn">Reset Fields</button>
+          <button type="submit" class="botbtn">Submit Details</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
