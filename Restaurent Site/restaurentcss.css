@@ -1,0 +1,197 @@
+/* CSS Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+}
+/* Custom CSS */
+body {
+  background-color: lightyellow;
+  background-image: url(Media\ Files/mainbg.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Patrick Hand', cursive;
+}
+header {
+    /* background-color: lightblue; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+    padding: 2vh 3vw;
+    align-items: center;
+    border-bottom: 3px solid yellow;
+}
+.hleft {
+    font-family: 'Handlee', cursive;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 2px 8px;
+    border-radius: 5px;
+    /* background-color: white; */
+}
+.hleft a{
+    text-decoration: none;
+    /* color: black; */
+    color: white;
+}
+.hleft:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ease-in-out;
+    /* background-color: orange; */
+}
+.hright ul {
+    /* background-color: lightgreen; */
+    display: flex;
+    justify-content: space-between;
+    width: 40vw;
+    list-style: none;
+}
+.hright ul a{
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 2px;
+    border-radius: 2px;
+    color: black;
+}
+.hright ul a:hover{
+    border-bottom: 2px solid white;
+    background-color: grey;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+}
+.introbox{
+    background-color: rgb(0,0,0,0.7);
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: 2vh auto;
+    padding: 1vw;border-radius: 1vw;
+
+}
+.introbox .txt{
+    /* background-color: white; */
+    margin: 1vw 2vw;
+    padding: 1vw;
+    color: white;
+    font-size: 1.1em;
+}
+.introimgpic{
+    border-radius: 1vw;
+    width: 30vw;
+    border: 1px solid white;
+}
+.specialdish{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 85%;
+    margin: 4vh auto;
+}
+.spdishcard{
+    width: 30vw;
+    margin: 1vw;
+    padding: 1vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    /* background-color:lightpink; */
+    background-color: rgb(0,0,0,0.7);
+    border: 2px solid white;
+    align-items: center;
+}
+.spdishcard:hover{
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+.spdishcard img{
+    width: 200px;
+    border-radius: 50%;
+    margin: 1vw;
+    box-shadow: 0px 0px 20px white;
+}
+.spdishcard h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 1vh 0;
+    color: white;
+}
+.spdishcard p{
+    color: white;
+    width: 75%;
+    text-align: center;
+    margin-bottom: 2vh;
+}
+#commenttopic{
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+    padding: 3vw;
+    border-top: 4px solid white;
+}
+.commentsection{
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.commentcard{
+    width: 30vw; 
+    /* background-color: rgb(255, 213, 0); */
+    background-color: rgb(0,0,0,0.7);
+    border: 2px solid white;
+    color: white;
+    margin: 2vw 1vw;
+    padding: 2vw 1vw;
+    display: flex;
+    border-radius: 1vw;
+    flex-direction: column;
+    align-items: center;
+}
+.commentcard img{
+    border-radius: 50%; 
+    width: 100px;
+    margin: 1vh 0;
+    box-shadow: 0px 0px 30px white;
+    border: 2px solid white;
+}
+.commentcard h3{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+.commentcard p{
+    width: 80%;
+    margin: 1vh 0;
+    text-align: center;
+}
+.last{
+    text-align: center;
+    margin: 1vw;
+    padding: 2vw;
+    border-radius: 1vw;
+    /* background-color: lightblue; */
+    background-color: rgb(0,0,0,0.7);
+    border: 2px solid white;
+    color: white;
+
+}
+.last h2{
+    text-transform: uppercase;
+}
+.last p{
+    margin: .4em auto ;
+}
+footer{
+    padding: 2vw;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 0px 0px 4px black;
+    border-top: 2px solid white;
+    background-color: rgb(0,0,0,0.8);
+}
