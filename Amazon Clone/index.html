@@ -1,0 +1,352 @@
+<!-- 01 August 2023 / 0940hrs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Clone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,800&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <!-- Top 2 Strips for Navigation -->
+        <header>
+            <!-- Top Upper Navigation Menu -->
+            <nav class="top1">
+                <div class="logo , hvr">
+                    <!-- Amazon Logo -->
+                    <img src="Photos/Amazon.com-Logo.png" alt="Amazon logo" id="amazonlogo">
+                </div>
+                <div class="address , hvr">
+                    <!-- Location Icon and Address -->
+
+                    <img src="Icons/location.png" alt="Location Icon" class="locicon">
+
+                    <div class="locationaddress">
+                        Hello <br>
+                        <strong>Select Your Address</strong>
+                    </div>
+                </div>
+                <form action="#" id="searchbar" class="hvr">
+                    <!-- Search area and search options -->
+                    <select name="category" id="category">
+                        <option value="all" selected>All Categories</option>
+                        <option value="pc">Laptops and Desktops</option>
+                        <option value="sphones">Smartphones</option>
+                        <option value="entertnmnt">TVs and Projectors</option>
+                        <option value="vehicle">2 Wheelers and 4 Wheelers</option>
+                        <option value="play">Toys and Games</option>
+                        <option value="cloth">Dresses and Wearables</option>
+                        <option value="fashion">Fashion and Fragnance</option>
+                    </select>
+                    <input type="search" placeholder="Search Amazon.in" id="searcharea">
+                    <button type="submit" id="searchicon"><img src="Icons/searchicon.png" alt="Search Icon"
+                            id="searchiconpic"></button>
+                </form>
+                <div class="language  , hvr">
+                    <!-- Flag and Language -->
+                    <img src="Icons/flag-fill.png" alt="logo of a Flag" id="flagicon">
+                    <select name="lang" id="langopt">
+                        <option value="en" selected>English</option>
+                        <option value="hi">Hindi</option>
+                        <option value="l1">Lang-1</option>
+                        <option value="l2">Lang-2</option>
+                        <option value="l3">Lang-3</option>
+                    </select>
+                </div>
+                <div class="user  , hvr">
+                    <!-- User Logo and sign in option-->
+                    <img src="Icons/user-solid.svg" alt="user logo" id="usericon">
+                    <strong>Sign-In</strong>
+                </div>
+                <div class="returns , hvr">
+                    <!-- Returns and Order status -->
+                    Returns <br>
+                    <strong>& Orders</strong>
+                </div>
+                <div class="cart , hvr">
+                    <!-- Cart Logo -->
+                    <img src="Icons/shopping-cart-2-line.png" alt="cart icon" id="carticon">
+                </div>
+            </nav>
+            <!-- Top Lower Navigation Menu -->
+            <nav>
+                <ul class="top2">
+                    <li><a href="#">All </a></li>
+                    <li><a href="#">Amazon Mini TV </a></li>
+                    <li><a href="#">Sell </a></li>
+                    <li><a href="#">Best Sellers </a></li>
+                    <li><a href="#">Today's Deals </a></li>
+                    <li><a href="#">Mobiles </a></li>
+                    <li><a href="#">New Releases </a></li>
+                    <li><a href="#">Customer Service </a></li>
+                    <li><a href="#">Prime </a></li>
+                    <li><a href="#">Electronics </a></li>
+                    <li><a href="#">Home and Kitchen </a></li>
+                    <li><a href="#">Gift Ideas </a></li>
+                    <li><a href="#">Gift Amazon Pay </a></li>
+                    <li><a href="#">Computers </a></li>
+                    <li><a href="#">Fashion </a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Items Listing -->
+        <div class="items">
+            <div class="warning">
+                Warning: Please Note that None of the Information Given is Correct and refer to the original Site for
+                Correct Information.
+            </div>
+            <span class="sectionhead1">
+                Laptops/Samsung Galaxy Book 3
+            </span>
+            <section class="section1">
+                <div class="item">
+                    <div class="itemhead">
+                        <span class="lname"><a href="#">Samsung Galaxy Book-3 </a> </span> <br>
+                        intel Core i5 13th Gen Processor <br>
+                        intel Iris XE Graphics <br>
+                        8GB RAM 512GB Storage .
+                    </div>
+                    <img src="Photos/Laptop1.jpg" alt="Laptop Photo" class="laptopphoto">
+                    <div class="price">
+                        Price:XX,XXX
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemhead">
+                        <span class="lname"><a href="#">Samsung Galaxy Book-3 X360</a></span> <br>
+                        intel Core i5 13th Gen Processor <br>
+                        intel Iris XE Graphics <br>
+                        16GB RAM 1TB Storage .
+                    </div>
+                    <img src="Photos/Laptop2.jpg" alt="Laptop Photo" class="laptopphoto">
+                    <div class="price">
+                        Price:X,XX,XXX
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemhead">
+                        <span class="lname"><a href="#">Samsung Galaxy Book-3 </a></span> <br>
+                        intel Core i7 13th Gen Processor <br>
+                        intel Iris XE Graphics <br>
+                        8GB RAM 512GB Storage .
+                    </div>
+                    <img src="Photos/Laptop1.jpg" alt="Laptop Photo" class="laptopphoto">
+                    <div class="price">
+                        Price:XX,XXX
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemhead">
+                        <span class="lname"><a href="#">Samsung Galaxy Book-3 X360</a> </span> <br>
+                        intel Core i7 13th Gen Processor <br>
+                        intel Iris XE Graphics <br>
+                        16GB RAM 1TB Storage .
+                    </div>
+                    <img src="Photos/Laptop2.jpg" alt="Laptop Photo" class="laptopphoto">
+                    <div class="price">
+                        Price:X,XX,XXX
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemhead">
+                        <span class="lname"><a href="#">Samsung Galaxy Book-3 </a></span> <br>
+                        intel Core i7 13th Gen Processor <br>
+                        intel Iris XE Graphics <br>
+                        16GB RAM 1TB Storage .
+                    </div>
+                    <img src="Photos/Laptop1.jpg" alt="Laptop Photo" class="laptopphoto">
+                    <div class="price">
+                        Price:X,XX,XXX
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="itemhead">
+                        <span class="lname"><a href="#">Samsung Galaxy Book-3 X360</a></span> <br>
+                        intel Core i9 13th Gen Processor <br>
+                        intel Iris XE Graphics <br>
+                        16GB RAM 1TB Storage .
+                    </div>
+                    <img src="Photos/Laptop2.jpg" alt="Laptop Photo" class="laptopphoto">
+                    <div class="price">
+                        Price:X,XX,XXX
+                    </div>
+                </div>
+
+            </section>
+            <section class="section2">
+                <div class="fnftitle">
+                    Fashion & Fragnance
+                </div>
+                <div class="itemlist">
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">His Fashion</a>
+                        </div>
+                        <img src="Photos/shirtman.jpg" alt="photo of a man in shirt" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">Her Fashion</a>
+                        </div>
+                        <img src="Photos/womenfashion.png" alt="photo of a girl in kurti" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">Fragnances</a>
+                        </div>
+                        <img src="Photos/perfume.jpg" alt="photo of a perfume" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">His Fashion</a>
+                        </div>
+                        <img src="Photos/shirtman.jpg" alt="photo of a man in shirt" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">Her Fashion</a>
+                        </div>
+                        <img src="Photos/womenfashion.png" alt="photo of a girl in kurti" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">Fragnances</a>
+                        </div>
+                        <img src="Photos/perfume.jpg" alt="photo of a perfume" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">His Fashion</a>
+                        </div>
+                        <img src="Photos/shirtman.jpg" alt="photo of a man in shirt" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">Her Fashion</a>
+                        </div>
+                        <img src="Photos/womenfashion.png" alt="photo of a girl in kurti" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                    <div class="itemcard">
+                        <div class="name">
+                            <a href="#">Fragnances</a>
+                        </div>
+                        <img src="Photos/perfume.jpg" alt="photo of a perfume" class="clothphoto">
+                        <div class="price">
+                            Price: X,XXX
+                        </div>
+                    </div>
+                </div>
+
+
+            </section>
+            <section class="sec">
+
+            </section>
+        </div>
+        <!-- Back to Top Button -->
+        <div class="bttbtn">
+            <a href="#">
+                <button class="bttbutton">Back to top
+                    <img src="Icons/arrow-up-circle-line.png" alt="Arrow Up Icon" class="upicon">
+                </button>
+            </a>
+        </div>
+        <footer>
+            <div class="creditshead">
+                Credits, Resources and References
+            </div>
+            <nav class="creditslist">
+                <div class="list1">
+                    <div class="list1head">
+                        Credits for Inspiration, Motivation, <br>
+                    </div>
+                    <ul>
+                        <li>Harry Bhai <br>
+                            from <a href="https://www.youtube.com/c/codewithharry" target="_blank">CodeWithHarry YT</a>
+                        </li>
+                        <li>Tanay Bhaiya <br>
+                            from <a href="https://www.youtube.com/c/tanaypratap" target="_blank">Tanay Pratap YT</a>
+                        </li>
+                        <li>Harsh Bhaiya <br>
+                            from Sheriyans Coding School(YouTube) </li>
+                        <li>Shraddha Didi; aka Microsoft wali Didi <br>
+                            from Apni Kaksha</li>
+                    </ul>
+                </div>
+                <div class="list2">
+                    <div class="list2head">
+                        Resources which i used that can be helpful for you too are :
+                    </div>
+                    <ul>
+                        <li><a href="https://fonts.google.com/" target="_blank">Google Fonts</a></li>
+                        <li><a href="https://fonts.google.com/icons" target="_blank">Icons from Google Fonts</a></li>
+                        <li><a href="https://remixicon.com/" target="_blank">Remix Icons</a></li>
+                        <li><a href="https://fontshub.pro/" target="_blank">Fonts Hub</a></li>
+                        <li><a href="https://iconhub.io/" target="_blank">Icon Hub</a></li>
+                        <li>Code With Harry YouTube Channel / Web Development Course for Beginners</li>
+                        <li>Apni Kaksha YouTube Channel / Complete HTML Revision in 2 Hours</li>
+                        <li>Apni Kaksha YouTube Channel / Complete CSS Revision in 7 Hours</li>
+                    </ul>
+                </div>
+                <div class="list3head">
+                    I have taken tha Images of Boy and Perfume from and Amazon's Website.
+                    And the Image of the Girl from Ajio web site.
+                </div>
+
+            </nav>
+            <div class="last">
+                <img src="Photos/Amazon.com-Logo.png" alt="Logo of Amazon" class="lastlogo">
+                <div class="lasttext">Made with &hearts; by Abhishek. <br>
+                    Follow me on <a href="https://github.com/VishwakarmaAbhishek" target="_blank">
+                        <img src="Icons/github-fill.png" alt="Instagram Icon" class="smediaicon">
+                    </a>
+                    <a href="https://www.instagram.com/iamabhi.456789/" target="_blank">
+                        <img src="Icons/instagram-line.png" alt="Instagram Icon" class="smediaicon">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>
